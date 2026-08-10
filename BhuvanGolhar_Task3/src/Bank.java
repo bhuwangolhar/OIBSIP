@@ -8,7 +8,7 @@ public class Bank {
         accounts = new HashMap<>();
         // Hardcoded dummy accounts for testing
         addAccount(new Account("1001", "1234", "Bhuvan Golhar", 5000.00));
-        addAccount(new Account("1002", "5678", "Sandip Gavit", 3000.00));
+        addAccount(new Account("1002", "5678", "John Doe", 3000.00));
     }
 
     public void addAccount(Account account) {
