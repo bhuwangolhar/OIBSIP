@@ -34,3 +34,81 @@ OIBSIP/
     ├── src/
     │   └── NumberGuessingGame.java
     └── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+### Option 1: Using Terminal / Command Line
+
+1. Open your terminal and navigate to the `src` folder:
+
+```bash
+cd OIBSIP/BhuvanGolhar_Task2/src
+```
+
+2. Compile the Java file:
+
+```bash
+javac NumberGuessingGame.java
+```
+
+3. Run the application:
+
+```bash
+java NumberGuessingGame
+```
+
+### Option 2: Using an Online Java Compiler
+
+1. Open [OnlineGDB Java Compiler](https://www.onlinegdb.com/online_java_compiler).
+2. Copy the contents of `src/NumberGuessingGame.java`.
+3. Paste the code into the online editor and click Run.
+
+---
+
+## 📋 Sample Output
+
+```text
+==================================================
+       WELCOME TO THE NUMBER GUESSING GAME        
+==================================================
+
+--------------------------------------------------
+ROUND 1
+--------------------------------------------------
+Select Difficulty Level:
+1. Easy   (Range: 1 to 50,  Max Attempts: 10)
+2. Medium (Range: 1 to 100, Max Attempts: 7)
+3. Hard   (Range: 1 to 200, Max Attempts: 5)
+Enter choice (1-3): 1
+
+I've picked a number between 1 and 50. You have 10 attempts!
+
+[Attempt 1 of 10] Enter your guess: 25
+📉 Too High!
+Attempts remaining: 9
+
+[Attempt 2 of 10] Enter your guess: 12
+🎉 Correct! You guessed the number 12 in 2 attempts!
+
+==================================================
+                   GAME SUMMARY                   
+==================================================
+Round    Difficulty   Target   Attempts     Status  
+--------------------------------------------------
+1        Easy         12       2            WON     
+--------------------------------------------------
+Total Rounds Played : 1
+Total Rounds Won    : 1
+==================================================
+```
+
+---
+
+## 👤 Author
+
+- **Name:** Bhuvan Golhar
+- **Domain:** Java Development Intern
+- **Organization:** Oasis Infobyte
