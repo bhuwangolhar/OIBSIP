@@ -45,7 +45,7 @@ OIBSIP/
 | User ID | PIN    | Account Holder | Initial Balance |
 | ------- | ------ | --------------- | ---------------- |
 | `1001`  | `1234` | Bhuvan Golhar    | ₹5,000.00        |
-| `1002`  | `5678` | Sandip Gavit     | ₹3,000.00        |
+| `1002`  | `5678` | John Doe     | ₹3,000.00        |
 
 ---
 
@@ -115,7 +115,7 @@ Choose an option (1-5): 4
 Enter Recipient Account ID: 1002
 Enter amount to transfer: ₹1000
 ✅ Successfully withdrew ₹1000.00. Remaining Balance: ₹6000.00
-✅ Transferred ₹1000.00 to Sandip Gavit (1002)
+✅ Transferred ₹1000.00 to John Doe (1002)
 
 ==================================================
                     MAIN MENU                     
